@@ -1,6 +1,19 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "displayTitle":"Meekdai",
+    "homeUrl":"",
+    "faviconUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "email":"huhy0110@gmail.com",
+    "startSite":"03/25/2024",
+    "filingNum":"冀ICP备20240325号",
+    "onePageListNum":15,
+    "singlePage":[],
+    "commentLabelColor":"#006b75",
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "i18n":"CN",
+    "UTC":8,
+    "dayTheme":"light",
+    "nightTheme":"dark_colorblind",
+    "urlMode":"pinyin",
+    "style":"",
+    "script":"",
 }
