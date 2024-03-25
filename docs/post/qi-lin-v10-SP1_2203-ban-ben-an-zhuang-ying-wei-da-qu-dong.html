@@ -12,8 +12,9 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
-<meta name="description" content="一切问题都是智商问题。">
-<title>昌嘉新途</title>
+<meta name="description" content="麒麟v10-SP1_2203版本安装英伟达驱动">
+<title>麒麟v10-SP1_2203版本安装英伟达驱动</title>
+
 
 </head>
 <style>
@@ -24,103 +25,124 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </style>
 
 <style>
-.avatar {transition: 0.8s;width:64px;height:64px;object-fit: cover;}
-.avatar:hover{transform: scale(1.15) rotate(360deg);}
-#header h1 a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-family:Monaco;margin-left:8px;}
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
 .title-right{display:flex;margin:auto 0 0 auto;}
-.title-right button{margin-right:8px;padding:16px;}
-.title-right .circle{padding: 14px 16px;}
-
-.SideNav{min-width: 360px;}
-.SideNav-icon{margin-right: 16px}
-.SideNav-item .Label{color: #fff;margin-left:8px;}
-.d-flex{min-width:0;}
-.listTitle{overflow:hidden;white-space:nowrap;text-overflow: ellipsis;max-width: 100%;}
-.listLabels{white-space:nowrap;}
-.listLabels object{max-height:16px;max-width:24px;}
-
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
 @media (max-width: 600px) {
     body {padding: 8px;}
-    .avatar {width:40px;height:40px;}
-    .blogTitle{display:none;}
-    #buttonRSS{display:none;}
-    .LabelTime{display:none;}
+    .postTitle{font-size:24px;}
 }
 </style>
 
 
+
+
 <body>
     <div id="header">
-<h1>
-    <img src="https://github.githubassets.com/favicons/favicon.svg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">昌嘉新途</a></h1>
+<h1 class="postTitle">麒麟v10-SP1_2203版本安装英伟达驱动</h1>
 <div class="title-right">
-    <a href="https://chjxt.github.io/tag.html"><button id="buttonSearch" class="btn btn-invisible circle" title="搜索">
-        <svg class="octicon" width="16" height="16" >
-            <path id="pathSearch" fill-rule="evenodd"></path>
+    
+    <a href="https://chjxt.github.io"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd" d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"></path>
+        </svg>
+    </button></a>
+
+    
+    <a href="https://github.com/chjxt/chjxt.github.io/issues/3" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
         </svg>
     </button></a>
     
-    <a href="https://chjxt.github.io/rss.xml" target="_blank"><button id="buttonRSS" class="btn btn-invisible circle" title="RSS">
-        <svg class="octicon" width="16" height="16" >
-            <path id="pathRSS" fill-rule="evenodd"></path>
-        </svg>
-    </button></a>
-    <button class="btn btn-invisible circle" onclick="modeSwitch()" title="切换主题">
+
+    <button class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
         <svg class="octicon" width="16" height="16" >
             <path id="themeSwitch" fill-rule="evenodd"></path>
         </svg>
     </button>
+
 </div>
 </div>
     <div id="content">
-<div style="margin-bottom: 16px;">一切问题都是智商问题。</div>
-<nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/LinuxU-pan-wu-fa-du-qu-%EF%BC%8C-tong-guo-python-jin-xing-http-shu-ju-hu-chuan.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">LinuxU盘无法读取，通过python进行http数据互传</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#FBCA04"><object><a style="color:#fff" href="https://chjxt.github.io/tag.html#Python">Python</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-25</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/wei-shi-tong-wei-zong-xiang-hui-fu-chu-chang-she-zhi.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">卫士通微纵向恢复出厂设置</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#C5DEF5"><object><a style="color:#fff" href="https://chjxt.github.io/tag.html#卫士通纵向加密">卫士通纵向加密</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-25</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/UOS-tui-chu-kai-fa-zhe-mo-shi.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">UOS退出开发者模式</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#5319E7"><object><a style="color:#fff" href="https://chjxt.github.io/tag.html#统信UOS">统信UOS</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-25</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/qi-lin-v10-SP1_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">麒麟v10-SP1_2203版本安装英伟达驱动</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#1D76DB"><object><a style="color:#fff" href="https://chjxt.github.io/tag.html#麒麟V10系列">麒麟V10系列</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-03-25</span>
-    </div>
-</a>
-</nav>
+<div class="markdown-body" id="postBody"><p>1、查询本机显卡型号</p>
+<pre class="notranslate"><code class="notranslate">sudo lshw \-numeric \-C display      \#查看当前电脑的显卡型号
+
+sudo lsmod | grep nouveau          \#查看nouveau驱动是否使用
+
+sudo lspci | grep VGA              \# 查看集成显卡
+
+sudo lspci | grep NVIDIA           \# 查看NVIDIA显卡
+
+sudo lshw \-c video | grep configuration	 \#查看显卡驱动
+</code></pre>
+<p>2、根据显卡型号去英伟达官方下载</p>
+<p>NVIDIA驱动程序下载</p>
+<p><a href="https://www/%5C.nvidia%5C.cn/Download/index%5C.aspx?lang=cn" rel="nofollow">https://www/\.nvidia\.cn/Download/index\.aspx?lang=cn</a></p>
+<p>3、禁用nouveau驱动</p>
+<p>一般Linux都会自动集成一个开源的NVIDIA驱动nouveau，安装NVIDIA驱动需要先禁用这个驱动</p>
+<pre class="notranslate"><code class="notranslate">sudo su		\#进入root用户
+</code></pre>
+<p>打开禁用配置文件</p>
+<pre class="notranslate"><code class="notranslate">vim /etc/modprobe\.d/blacklist\.conf	
+</code></pre>
+<p>在最后一行添加</p>
+<pre class="notranslate"><code class="notranslate">blacklist nouveau
+</code></pre>
+<p>保存并退出</p>
+<pre class="notranslate"><code class="notranslate">:wq
+</code></pre>
+<p>由于nouveau是在内核中的，还需要更新一下，执行如下命令：</p>
+<pre class="notranslate"><code class="notranslate">sudo update\-initramfs \-u
+</code></pre>
+<p>之后重启电脑：</p>
+<pre class="notranslate"><code class="notranslate">reboot
+</code></pre>
+<p>重启后查看禁用是否成功：</p>
+<pre class="notranslate"><code class="notranslate">lsmod | grep nouveau 
+</code></pre>
+<p>如果什么都没有输出就代表nouveau被禁用了</p>
+<p>进入tty终端</p>
+<p><em>ctrl+alt+F1</em></p>
+<p>4、安装驱动<br>
+如果以前安装过NVIDIA驱动，需要卸载(没安装过跳过此步骤)：</p>
+<pre class="notranslate"><code class="notranslate">sudo apt\-get remove –\-purge nvidia\*
+</code></pre>
+<p>关闭X window 界面：</p>
+<pre class="notranslate"><code class="notranslate">sudo service lightdm stop
+</code></pre>
+<p>给NVIDIA添加权限：</p>
+<pre class="notranslate"><code class="notranslate">sudo chmod a\+x NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run
+</code></pre>
+<p>然后执行安装：</p>
+<pre class="notranslate"><code class="notranslate">sudo sh \./NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run \-no\-opengl\-files
+</code></pre>
+<p>–no-opengl-files 参数必须加否则会循环登录，也就是loop login。</p>
+<p>参数介绍：</p>
+<p>–no-opengl-files 只安装驱动文件，不安装OpenGL文件。这个参数最重要<br>
+–no-x-check 安装驱动时不检查X服务<br>
+–no-nouveau-check 安装驱动时不检查nouveau<br>
+后面两个参数可不加。</p>
+<p><strong>在安装驱动过程中， 界面看到DKSM的选择的时候选择no（不安装即可），否则驱动安装失败，安装过程中一路回车即可</strong></p>
+<p><strong>安装完成之后界面没有自动重启就输入，输入回车后会进入图形界面</strong></p>
+<p>重启图形界面</p>
+<pre class="notranslate"><code class="notranslate">sudo service lightdm start
+</code></pre>
+<p>重启完成之后查看显卡驱动:</p>
+<pre class="notranslate"><code class="notranslate">sudo lshw \-c video | grep configuration
+</code></pre>
+<p>查看驱动是否是自己下载的版本,如果是，则安装成功</p>
+<pre class="notranslate"><code class="notranslate">modinfo nvidia
+</code></pre>
+<h2></h2></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://chjxt.github.io"> 昌嘉新途 </a>
 <p><a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备20240325号</a>
@@ -173,19 +195,45 @@ console.log("\n %c Gmeek last %c https://github.com/Meekdai/Gmeek \n\n", "color:
 </script>
 
 <script>
-document.getElementById("pathSearch").setAttribute("d",IconList["search"]);
-document.getElementById("pathRSS").setAttribute("d",IconList["rss"]);
-iconTOP=document.getElementsByClassName("svgTop1");
-iconPost=document.getElementsByClassName("svgTop0");
-for(var i=0;i<iconTOP.length;i++){
-    iconTOP[i].setAttribute("d",IconList["upload"]);
-    iconTOP[i].parentNode.style.color="red";
-}
-for(var i=0;i<iconPost.length;i++){
-    iconPost[i].setAttribute("d",IconList["post"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","chjxt/chjxt.github.io");
+    script.setAttribute("issue-term","title");
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else{script.setAttribute("theme","github-light");}
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
 }
 
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
 
 </script>
+
+
+
 
 </html>

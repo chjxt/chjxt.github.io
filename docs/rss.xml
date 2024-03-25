@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:31:45 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>LinuxU盘无法读取，通过python进行http数据互传</title><link>https://chjxt.github.io/post/LinuxU-pan-wu-fa-du-qu-%EF%BC%8C-tong-guo-python-jin-xing-http-shu-ju-hu-chuan.html</link><description>一、背景与前提&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:32:29 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>LinuxU盘无法读取，通过python进行http数据互传</title><link>https://chjxt.github.io/post/LinuxU-pan-wu-fa-du-qu-%EF%BC%8C-tong-guo-python-jin-xing-http-shu-ju-hu-chuan.html</link><description>一、背景与前提&#13;
 &#13;
 1.1 背景&#13;
 &#13;
@@ -20,7 +20,7 @@ date -s "2024-3-25 15:12:00"&#13;
 hw -w&#13;
 reboot&#13;
 ```。</description><guid isPermaLink="true">https://chjxt.github.io/post/wei-shi-tong-wei-zong-xiang-hui-fu-chu-chang-she-zhi.html</guid><pubDate>Mon, 25 Mar 2024 02:29:18 +0000</pubDate></item><item><title>UOS退出开发者模式</title><link>https://chjxt.github.io/post/UOS-tui-chu-kai-fa-zhe-mo-shi.html</link><description>sudo chattr -i /var/lib/deepin/developer-mode/enabled&#13;
-sudo rm /var/lib/deepin/developer-mode/enabled。</description><guid isPermaLink="true">https://chjxt.github.io/post/UOS-tui-chu-kai-fa-zhe-mo-shi.html</guid><pubDate>Mon, 25 Mar 2024 02:27:07 +0000</pubDate></item><item><title>麒麟v10\-SP1\_2203版本安装英伟达驱动</title><link>https://chjxt.github.io/post/qi-lin-v10%5C-SP1%5C_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html</link><description>1、查询本机显卡型号&#13;
+sudo rm /var/lib/deepin/developer-mode/enabled。</description><guid isPermaLink="true">https://chjxt.github.io/post/UOS-tui-chu-kai-fa-zhe-mo-shi.html</guid><pubDate>Mon, 25 Mar 2024 02:27:07 +0000</pubDate></item><item><title>麒麟v10-SP1_2203版本安装英伟达驱动</title><link>https://chjxt.github.io/post/qi-lin-v10-SP1_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html</link><description>1、查询本机显卡型号&#13;
 &#13;
 ```&#13;
 sudo lshw \-numeric \-C display      \#查看当前电脑的显卡型号&#13;
@@ -115,4 +115,4 @@ sudo chmod a\+x NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run&#13;
 sudo sh \./NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run \-no\-opengl\-files&#13;
 ```&#13;
 &#13;
-–no\-opengl\-files 参数必须加否则会循环登录，也就是loop login。</description><guid isPermaLink="true">https://chjxt.github.io/post/qi-lin-v10%5C-SP1%5C_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html</guid><pubDate>Mon, 25 Mar 2024 02:25:04 +0000</pubDate></item></channel></rss>
+–no\-opengl\-files 参数必须加否则会循环登录，也就是loop login。</description><guid isPermaLink="true">https://chjxt.github.io/post/qi-lin-v10-SP1_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html</guid><pubDate>Mon, 25 Mar 2024 02:25:04 +0000</pubDate></item></channel></rss>
