@@ -1,6 +1,20 @@
 {
-    "title":"昌嘉新图",
+    "title":"昌嘉新途",
     "subTitle":"一切问题都是智商问题。",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "email":"dachui0729@gmail.com",
+    "startSite":"03/25/2024",
+    "filingNum":"冀ICP备20240325号",
+    "onePageListNum":15,
+    "singlePage":[],
+    "commentLabelColor":"#006b75",
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "i18n":"CN",
+    "UTC":8,
+    "dayTheme":"light",
+    "nightTheme":"dark_colorblind",
+    "urlMode":"pinyin",
+    "style":"",
+    "script":""
 }
