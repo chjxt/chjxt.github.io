@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:45:05 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>硬盘分区与挂载</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai.html</link><description>一、新加硬盘或者系统自带的机械硬盘有没有挂载&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:51:25 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>麒麟V3.3文本乱码问题</title><link>https://chjxt.github.io/post/qi-lin-V3.3-wen-ben-luan-ma-wen-ti.html</link><description>1、桌面右击—在终端中打开&#13;
+2、输入 dconf-editor 回车&#13;
+3、点击上面的搜索框输入 encoding&#13;
+ &#13;
+![图片1](https://github.com/chjxt/chjxt.github.io/assets/164757931/67f6ed83-7dc1-4f6e-afe6-45178f0eb184)&#13;
+&#13;
+4、点击show-in-menu-encodings&#13;
+把使用默认值按钮关掉，在自定义值中加入 ’GB18030’&#13;
+点击下面的应用按钮&#13;
+&#13;
+ ![图片2](https://github.com/chjxt/chjxt.github.io/assets/164757931/a9a5e230-c462-4ef6-a91a-0b121aee5e86)&#13;
+&#13;
+5、点击上面的搜索框输入 encoding&#13;
+点击 auto-detected-encodings&#13;
+把使用默认值按钮关掉，在自定义值’UTF-8’ 后面添加 ’GB18030’&#13;
+点击下面的应用按钮&#13;
+ ![图片3](https://github.com/chjxt/chjxt.github.io/assets/164757931/33f9c196-8cf8-497c-afdb-bf09edd909c1)&#13;
+6、关掉当前窗口。</description><guid isPermaLink="true">https://chjxt.github.io/post/qi-lin-V3.3-wen-ben-luan-ma-wen-ti.html</guid><pubDate>Mon, 25 Mar 2024 02:50:58 +0000</pubDate></item><item><title>硬盘分区与挂载</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai.html</link><description>一、新加硬盘或者系统自带的机械硬盘有没有挂载&#13;
 1.查硬盘在电脑上有没有识别到&#13;
 先用sudo fdisk -l 查一下看看有没有发现硬盘如下图：&#13;
 二、进行分区&#13;
