@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:32:29 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>LinuxU盘无法读取，通过python进行http数据互传</title><link>https://chjxt.github.io/post/LinuxU-pan-wu-fa-du-qu-%EF%BC%8C-tong-guo-python-jin-xing-http-shu-ju-hu-chuan.html</link><description>一、背景与前提&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 25 Mar 2024 02:35:44 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>凝思80安装NVIDIA显卡驱动</title><link>https://chjxt.github.io/post/ning-si-80-an-zhuang-NVIDIA-xian-qia-qu-dong.html</link><description>一、背景与前提&#13;
+&#13;
+1.1 背景&#13;
+&#13;
+客户环境局限性：&#13;
+&#13;
+1、禁止使用U盘外设接入；&#13;
+&#13;
+2、终端为国产化信创和Kylin麒麟系统，安装软件。</description><guid isPermaLink="true">https://chjxt.github.io/post/ning-si-80-an-zhuang-NVIDIA-xian-qia-qu-dong.html</guid><pubDate>Mon, 25 Mar 2024 02:35:18 +0000</pubDate></item><item><title>LinuxU盘无法读取，通过python进行http数据互传</title><link>https://chjxt.github.io/post/LinuxU-pan-wu-fa-du-qu-%EF%BC%8C-tong-guo-python-jin-xing-http-shu-ju-hu-chuan.html</link><description>一、背景与前提&#13;
 &#13;
 1.1 背景&#13;
 &#13;
