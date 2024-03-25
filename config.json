@@ -1,7 +1,10 @@
 {
-    "displayTitle":"Meekdai",
+    "title":"昌嘉新图",
+    "subTitle":"一切问题都是智商问题。",
+    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "GMEEK_VERSION":"last"
+    "displayTitle":"",
     "homeUrl":"",
-    "faviconUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "email":"huhy0110@gmail.com",
     "startSite":"03/25/2024",
     "filingNum":"冀ICP备20240325号",
@@ -15,5 +18,5 @@
     "nightTheme":"dark_colorblind",
     "urlMode":"pinyin",
     "style":"",
-    "script":"",
+    "script":""
 }
