@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Wed, 27 Mar 2024 11:19:50 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>银河麒麟无法进入root提示没有那个文件或目录</title><link>https://chjxt.github.io/post/yin-he-qi-lin-wu-fa-jin-ru-root-ti-shi-mei-you-na-ge-wen-jian-huo-mu-lu.html</link><description>### 故障产生原因，安装过麒麟3.3探针ks-agent-2.2.11&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Thu, 04 Apr 2024 05:09:35 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>中兴路由器解除ARP绑定</title><link>https://chjxt.github.io/post/zhong-xing-lu-you-qi-jie-chu-ARP-bang-ding.html</link><description>```&#13;
+ZXR10(config)#arp&#13;
+&#13;
+ZXR10(config-arp)#interface gei-0/2.1&#13;
+&#13;
+ZXR10(config-arp-if-gei-0/2.1)#arp permanent 120.1.1.3 0020.1122.3355 ＜vlan-id＞&#13;
+```&#13;
+&#13;
+_在子接口配置永久arp，与实接口类似，唯一不同的是需要在最后加上VLAN-ID_&#13;
+&#13;
+### 6800解除arp绑定&#13;
+```&#13;
+ZXR10(config)#arp&#13;
+ZXR10(config-arp)#no arp to-static interface gei-0/2.1&#13;
+```&#13;
+&#13;
+&#13;
+### 3800解除arp绑定&#13;
+```&#13;
+ZXR10(config)#interface gei-0/2.1&#13;
+ZXR10(config-arp-if-gei-0/2.1)#no arp to-static&#13;
+```&#13;
+。</description><guid isPermaLink="true">https://chjxt.github.io/post/zhong-xing-lu-you-qi-jie-chu-ARP-bang-ding.html</guid><pubDate>Thu, 04 Apr 2024 05:08:48 +0000</pubDate></item><item><title>银河麒麟无法进入root提示没有那个文件或目录</title><link>https://chjxt.github.io/post/yin-he-qi-lin-wu-fa-jin-ru-root-ti-shi-mei-you-na-ge-wen-jian-huo-mu-lu.html</link><description>### 故障产生原因，安装过麒麟3.3探针ks-agent-2.2.11&#13;
 ![1](https://github.com/chjxt/chjxt.github.io/assets/164757931/b7e9c4bd-8944-4b1d-b99f-bddf35369d66)&#13;
 ### 解决办法，删除/etc/profile.d里面的两个文件rm -rf zz-ks-agent-script.*&#13;
 ![2](https://github.com/chjxt/chjxt.github.io/assets/164757931/ade4d754-f54b-4d16-a16d-f7e37447d5c1)&#13;
