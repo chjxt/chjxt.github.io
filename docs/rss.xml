@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Wed, 10 Apr 2024 12:03:57 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>华为交换机or路由器升级</title><link>https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</link><description>1. 首先下载S7700-V200R008C00SPC500.rar升级包，包括升级文件 和升级指南，TFTP用的升级文件传输工具3CDaemon。</description><guid isPermaLink="true">https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</guid><pubDate>Mon, 08 Apr 2024 14:31:37 +0000</pubDate></item><item><title>CT7800-1000 V5.0 安装WIN7</title><link>https://chjxt.github.io/post/CT7800-1000%20V5.0%20-an-zhuang-WIN7.html</link><description>### ⼀、 准备⼯具和镜像&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Wed, 10 Apr 2024 12:14:22 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>华为交换机or路由器升级</title><link>https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</link><description>1. 首先下载S7700-V200R008C00SPC500.rar升级包，包括升级文件 和升级指南，TFTP用的升级文件传输工具3CDaemon。</description><guid isPermaLink="true">https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</guid><pubDate>Mon, 08 Apr 2024 14:31:37 +0000</pubDate></item><item><title>CT7800-1000 V5.0 安装WIN7</title><link>https://chjxt.github.io/post/CT7800-1000%20V5.0%20-an-zhuang-WIN7.html</link><description>### ⼀、 准备⼯具和镜像&#13;
 1.	带有驱动的WIN7镜像&#13;
 iso镜像：rg_nvme_cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso  &#13;
 ghost镜像：rg_nvme_with_zx_driver_cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.gho&#13;
@@ -83,9 +83,13 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw &lt;gw_ip&gt;&#13;
 &#13;
 - 🖥️ [Windows 7](https://cloud.189.cn/web/share?code=faAjQr7jI3Q3) - 7900_Win7 Ghost版本，开机即用版（访问码：3aiq）&#13;
 &#13;
-- :anger: [linx](https://www.linx-info.com/download/os/6.0.80/linxos-6.0.80-20230727-x86_64-DVD.iso) - 凝思6.0.80系统&#13;
+- :computer: [Windows 7](https://pan.baidu.com/s/1ArF04mQLcKzlmFhzcdIKzA?pwd=78gb) - 7900_Win7 原生镜像&#13;
+&#13;
+- :anger: [LINX](https://www.linx-info.com/download/os/6.0.80/linxos-6.0.80-20230727-x86_64-DVD.iso) - 凝思6.0.80系统&#13;
 &#13;
 - :arrow_heading_down: [linx_agent](https://pan.baidu.com/s/1aScVczXCne4T0bSEx9F9ZQ?pwd=r2rg) - 凝思6.0.80系统探针&#13;
+&#13;
+- :pushpin: [惠江安探针](https://pan.baidu.com/s/1dCmtUKjh9Sl4Nqors5UAEw?pwd=ycfw) - 惠江安探针&#13;
 &#13;
 - :eyes: [NVIDIA](https://pan.baidu.com/s/1AMtWB9uaSxl94QWwYTZhqA?pwd=icui) - 7900_Linux显卡驱动&#13;
 &#13;
