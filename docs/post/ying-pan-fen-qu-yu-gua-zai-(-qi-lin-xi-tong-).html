@@ -9,7 +9,24 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="硬盘分区与挂载(麒麟系统)">
+<meta name="description" content="一、新加硬盘或者系统自带的机械硬盘有没有挂载
+1.查硬盘在电脑上有没有识别到
+先用sudo fdisk -l 查一下看看有没有发现硬盘如下图：
+二、进行分区
+1.分区前准备
+查询一下查到后可以先用sudo fdisk /dev/sdb（这个是刚刚查询到对应硬盘的设备
+名）命令先给这个磁盘分区。">
+<meta property="og:title" content="硬盘分区与挂载(麒麟系统)">
+<meta property="og:description" content="一、新加硬盘或者系统自带的机械硬盘有没有挂载
+1.查硬盘在电脑上有没有识别到
+先用sudo fdisk -l 查一下看看有没有发现硬盘如下图：
+二、进行分区
+1.分区前准备
+查询一下查到后可以先用sudo fdisk /dev/sdb（这个是刚刚查询到对应硬盘的设备
+名）命令先给这个磁盘分区。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-qi-lin-xi-tong-%29.html">
+<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
 <title>硬盘分区与挂载(麒麟系统)</title>
 
 

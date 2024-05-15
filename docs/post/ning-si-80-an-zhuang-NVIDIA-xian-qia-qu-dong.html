@@ -9,7 +9,50 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="凝思80安装NVIDIA显卡驱动">
+<meta name="description" content="```
+将驱动文件拷贝至桌面，设置执行权限chmod +x NVIDIA-XXX.run
+vi /etc/modprobe.d/blacklist.conf，
+填入blacklist nouveau，
+然后保存退出
+执行update-initramfs  -u，
+然后reboot
+开机选择高级选项，
+进入recovery模式，
+这时候输入root密码，
+显卡驱动安装
+cd Desktop/
+./NVIDIA-XXX.run
+一路回车
+出现complete字样即安装完成，输入reboot重启系统
+输入命令查看是否正确安装
+nvidia-smi -a
+cat /proc/driver/nvidia/version
+```
+。">
+<meta property="og:title" content="凝思80安装NVIDIA显卡驱动">
+<meta property="og:description" content="```
+将驱动文件拷贝至桌面，设置执行权限chmod +x NVIDIA-XXX.run
+vi /etc/modprobe.d/blacklist.conf，
+填入blacklist nouveau，
+然后保存退出
+执行update-initramfs  -u，
+然后reboot
+开机选择高级选项，
+进入recovery模式，
+这时候输入root密码，
+显卡驱动安装
+cd Desktop/
+./NVIDIA-XXX.run
+一路回车
+出现complete字样即安装完成，输入reboot重启系统
+输入命令查看是否正确安装
+nvidia-smi -a
+cat /proc/driver/nvidia/version
+```
+。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://chjxt.github.io/post/ning-si-80-an-zhuang-NVIDIA-xian-qia-qu-dong.html">
+<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
 <title>凝思80安装NVIDIA显卡驱动</title>
 
 
