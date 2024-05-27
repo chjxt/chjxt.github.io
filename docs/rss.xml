@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 27 May 2024 03:37:11 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>硬盘分区与挂载(凝思)</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</link><description>命令行启动 gparted&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 27 May 2024 03:52:34 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>硬盘分区与挂载(凝思)</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</link><description>命令行启动 gparted&#13;
 在桌面上打开一个终端，su 到 root 用户（如果使用 root 登录的桌面就不需要该操作），执行 gparted 命令即可启动程序。</description><guid isPermaLink="true">https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</guid><pubDate>Wed, 10 Apr 2024 13:16:39 +0000</pubDate></item><item><title>华为交换机or路由器升级</title><link>https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</link><description>1. 首先下载S7700-V200R008C00SPC500.rar升级包，包括升级文件 和升级指南，TFTP用的升级文件传输工具3CDaemon。</description><guid isPermaLink="true">https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</guid><pubDate>Mon, 08 Apr 2024 14:31:37 +0000</pubDate></item><item><title>CT7800-1000 V5.0 安装WIN7</title><link>https://chjxt.github.io/post/CT7800-1000%20V5.0%20-an-zhuang-WIN7.html</link><description>直接下载镜使用PE进行安装即可，需要BIOS打开兼容性，硬盘分区格式为GPT&#13;
 &#13;
 - :cd: [Win7](https://www.123pan.com/s/aV6VVv-aSbHd.html) - 【7800-1000(V5)】 提取码:sS0o&#13;
@@ -74,15 +74,15 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw &lt;gw_ip&gt;&#13;
 //添加默认网关&#13;
 `# route add default gw IP`&#13;
 //删除路由&#13;
-`# route del –host 192.168.168.110 dev eth0`。</description><guid isPermaLink="true">https://chjxt.github.io/post/ning-si-xi-tong-tian-jia-lu-you.html</guid><pubDate>Wed, 27 Mar 2024 04:28:45 +0000</pubDate></item><item><title>工作所使用系统镜像以及软件下载</title><link>https://chjxt.github.io/post/gong-zuo-suo-shi-yong-xi-tong-jing-xiang-yi-ji-ruan-jian-xia-zai.html</link><description>- 🖥️  [Win10](https://www.alipan.com/s/xpMpdJhs55j) -【风清月莹】2024.03.21最终版&#13;
+`# route del –host 192.168.168.110 dev eth0`。</description><guid isPermaLink="true">https://chjxt.github.io/post/ning-si-xi-tong-tian-jia-lu-you.html</guid><pubDate>Wed, 27 Mar 2024 04:28:45 +0000</pubDate></item><item><title>工作所使用系统镜像以及软件下载</title><link>https://chjxt.github.io/post/gong-zuo-suo-shi-yong-xi-tong-jing-xiang-yi-ji-ruan-jian-xia-zai.html</link><description>- 🖥️  [Win10](https://www.123pan.com/s/aV6VVv-wSbHd.html) -【风清月莹】2024.04.09最终版&#13;
 &#13;
-- :cn: [UOS](https://pan.baidu.com/s/1Kgd4OQG2a6Q7BoL4hrJCig?pwd=q5tc) - 统信系统1050_Update3版本&#13;
+- :cn: [UOS](https://www.123pan.com/s/aV6VVv-ISbHd.html) - 统信系统1050_Update3版本&#13;
 &#13;
 - :racehorse: [银河麒麟V10-SP1](https://sx.ygwid.cn:4431/) - 双飞流下载站&#13;
 &#13;
-- :computer: [KYLINSEC_DESKTOP](https://pan.baidu.com/s/1YNx3UZAZOXVmt6kpEwF_wg?pwd=vfgt) - 麒麟信安V3.3桌面版本&#13;
+- :computer: [KYLINSEC_DESKTOP]() - 麒麟信安V3.3桌面版本&#13;
 &#13;
-- 🖥️ [KYLINSEC_SERVER](https://pan.baidu.com/s/1thG8uQh0VDZPQCq2tYkVKA?pwd=ewui) - 麒麟信安V3.3服务器版本&#13;
+- 🖥️ [KYLINSEC_SERVER](https://www.123pan.com/s/aV6VVv-MSbHd.html) - 麒麟信安V3.3服务器版本&#13;
 &#13;
 - :arrow_heading_down: [Agent](https://pan.baidu.com/s/1bPe_4pIrL9VTo8Lv0BubRQ?pwd=qbvq) - 麒麟信安V3.3探针升级安装包&#13;
 &#13;
