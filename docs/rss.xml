@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Tue, 28 May 2024 02:14:40 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>硬盘分区与挂载(凝思)</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</link><description>命令行启动 gparted&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Tue, 28 May 2024 16:15:49 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>硬盘分区与挂载(凝思)</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</link><description>命令行启动 gparted&#13;
 在桌面上打开一个终端，su 到 root 用户（如果使用 root 登录的桌面就不需要该操作），执行 gparted 命令即可启动程序。</description><guid isPermaLink="true">https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</guid><pubDate>Wed, 10 Apr 2024 13:16:39 +0000</pubDate></item><item><title>华为交换机or路由器升级</title><link>https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</link><description>1. 首先下载S7700-V200R008C00SPC500.rar升级包，包括升级文件 和升级指南，TFTP用的升级文件传输工具3CDaemon。</description><guid isPermaLink="true">https://chjxt.github.io/post/hua-wei-jiao-huan-ji-or-lu-you-qi-sheng-ji.html</guid><pubDate>Mon, 08 Apr 2024 14:31:37 +0000</pubDate></item><item><title>CT7800-1000 V5.0 安装WIN7</title><link>https://chjxt.github.io/post/CT7800-1000%20V5.0%20-an-zhuang-WIN7.html</link><description>直接下载镜使用PE进行安装即可，需要BIOS打开兼容性，硬盘分区格式为GPT&#13;
 &#13;
 - :cd: [Win7](https://www.123pan.com/s/aV6VVv-aSbHd.html) - 【7800-1000(V5)】 提取码:sS0o&#13;
@@ -50,8 +50,8 @@ ZXR10(config-arp-if-gei-0/2.1)#no arp to-static&#13;
 。</description><guid isPermaLink="true">https://chjxt.github.io/post/yin-he-qi-lin-wu-fa-jin-ru-root-ti-shi-mei-you-na-ge-wen-jian-huo-mu-lu.html</guid><pubDate>Wed, 27 Mar 2024 11:14:00 +0000</pubDate></item><item><title>凝思系统添加路由</title><link>https://chjxt.github.io/post/ning-si-xi-tong-tian-jia-lu-you.html</link><description>60,80系统注意要在rc.local最后一行 exit 0 之前添加（推荐使用vim进去手动添加）&#13;
 ```&#13;
 rocky:~ # sed -i '/exit 0/d' /etc/rc.local&#13;
-rocky:~ # echo "route add -net 103.10.10.0/24 gw 103.10.10.254" &gt;&gt; /etc/rc.local&#13;
-rocky:~ # echo "exit 0" &gt;&gt;/etc/rc.local&#13;
+rocky:~ # echo 'route add -net 103.10.10.0/24 gw 103.10.10.254' &gt;&gt; /etc/rc.local&#13;
+rocky:~ # echo 'exit 0' &gt;&gt;/etc/rc.local&#13;
 ```&#13;
 80系统可以添加到配置文件/etc/network/interfaces中，格式如下&#13;
 ```&#13;
@@ -178,7 +178,7 @@ cd /gdconf/sh&#13;
 ./rm.f&#13;
 &#13;
 更改时间&#13;
-date -s "2024-3-25 15:12:00"&#13;
+date -s '2024-3-25 15:12:00'&#13;
 hw -w&#13;
 reboot&#13;
 ```。</description><guid isPermaLink="true">https://chjxt.github.io/post/wei-shi-tong-wei-zong-xiang-hui-fu-chu-chang-she-zhi.html</guid><pubDate>Mon, 25 Mar 2024 02:29:18 +0000</pubDate></item><item><title>UOS退出开发者模式</title><link>https://chjxt.github.io/post/UOS-tui-chu-kai-fa-zhe-mo-shi.html</link><description>```&#13;

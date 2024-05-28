@@ -12,8 +12,8 @@
 <meta name="description" content="60,80系统注意要在rc.local最后一行 exit 0 之前添加（推荐使用vim进去手动添加）
 ```
 rocky:~ # sed -i '/exit 0/d' /etc/rc.local
-rocky:~ # echo "route add -net 103.10.10.0/24 gw 103.10.10.254" >> /etc/rc.local
-rocky:~ # echo "exit 0" >>/etc/rc.local
+rocky:~ # echo 'route add -net 103.10.10.0/24 gw 103.10.10.254' >> /etc/rc.local
+rocky:~ # echo 'exit 0' >>/etc/rc.local
 ```
 80系统可以添加到配置文件/etc/network/interfaces中，格式如下
 ```
@@ -41,8 +41,8 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw <gw_ip>
 <meta property="og:description" content="60,80系统注意要在rc.local最后一行 exit 0 之前添加（推荐使用vim进去手动添加）
 ```
 rocky:~ # sed -i '/exit 0/d' /etc/rc.local
-rocky:~ # echo "route add -net 103.10.10.0/24 gw 103.10.10.254" >> /etc/rc.local
-rocky:~ # echo "exit 0" >>/etc/rc.local
+rocky:~ # echo 'route add -net 103.10.10.0/24 gw 103.10.10.254' >> /etc/rc.local
+rocky:~ # echo 'exit 0' >>/etc/rc.local
 ```
 80系统可以添加到配置文件/etc/network/interfaces中，格式如下
 ```
@@ -242,7 +242,6 @@ function iFrameLoading(){
     }
 }
 </script>
-
 
 
 </html>
