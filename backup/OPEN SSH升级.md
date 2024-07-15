@@ -20,7 +20,6 @@ make && make install
 2. 安装 openssl
 
 ```
-cd ..
 tar zxvf openssl-1.1.1t.tar.gz
 cd openssl-1.1.1t
 ./config --prefix=/usr/local/ssl -d shared
@@ -30,7 +29,6 @@ echo '/usr/local/ssl/lib' >> /etc/ld.so.conf
 ```
 3. 安装 openssh
 ```
-cd ..
 yum -y remove openssh
 tar zxvf openssh-9.5p1.tar.gz
 cd openssh-9.5p1	

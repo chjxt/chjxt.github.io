@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 06:03:18 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>OPEN SSH升级</title><link>https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</link><description>### 一、银河麒麟SP1 升级&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 06:06:30 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>OPEN SSH升级</title><link>https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</link><description>### 一、银河麒麟SP1 升级&#13;
 下载所需deb文件，进入文件夹执行`sudo   dpkg   -i   *.deb`&#13;
 deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.123pan.com/s/aV6VVv-L8ZHd.html)&#13;
 &#13;
@@ -21,7 +21,6 @@ make &amp;&amp; make install&#13;
 2. 安装 openssl&#13;
 &#13;
 ```&#13;
-cd ..&#13;
 tar zxvf openssl-1.1.1t.tar.gz&#13;
 cd openssl-1.1.1t&#13;
 ./config --prefix=/usr/local/ssl -d shared&#13;
@@ -31,7 +30,6 @@ echo '/usr/local/ssl/lib' &gt;&gt; /etc/ld.so.conf&#13;
 ```&#13;
 3. 安装 openssh&#13;
 ```&#13;
-cd ..&#13;
 yum -y remove openssh&#13;
 tar zxvf openssh-9.5p1.tar.gz&#13;
 cd openssh-9.5p1	&#13;
