@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 06:00:27 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>OPEN SSH升级</title><link>https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</link><description>### 一、银河麒麟SP1 升级&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 06:03:18 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>OPEN SSH升级</title><link>https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</link><description>### 一、银河麒麟SP1 升级&#13;
 下载所需deb文件，进入文件夹执行`sudo   dpkg   -i   *.deb`&#13;
 deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.123pan.com/s/aV6VVv-L8ZHd.html)&#13;
 &#13;
 ### 二、麒麟信安V3.3升级&#13;
+&#13;
+所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)&#13;
 &#13;
 &gt; :exclamation: 按照顺序安装&#13;
 &#13;
@@ -53,8 +55,7 @@ systemctl start sshd.service&#13;
 chkconfig --add sshd&#13;
 chkconfig sshd on&#13;
 &#13;
-```&#13;
-所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)。</description><guid isPermaLink="true">https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</guid><pubDate>Mon, 15 Jul 2024 06:00:04 +0000</pubDate></item><item><title>锐捷设备-故障排查宝典</title><link>https://chjxt.github.io/post/rui-jie-she-bei---gu-zhang-pai-cha-bao-dian.html</link><description>### [自助服务门户-故障排查宝典](https://search.ruijie.com.cn/door/trade/industry/?tag=ts&amp;fw=wocsfw#/)。</description><guid isPermaLink="true">https://chjxt.github.io/post/rui-jie-she-bei---gu-zhang-pai-cha-bao-dian.html</guid><pubDate>Wed, 19 Jun 2024 03:20:01 +0000</pubDate></item><item><title>现网内有防火墙导致视频会议参会成员入会时无规律掉线解决方案</title><link>https://chjxt.github.io/post/xian-wang-nei-you-fang-huo-qiang-dao-zhi-shi-pin-hui-yi-can-hui-cheng-yuan-ru-hui-shi-wu-gui-lv-diao-xian-jie-jue-fang-an.html</link><description>### 奇安信防火墙关闭ALG（反向代理）&#13;
+```。</description><guid isPermaLink="true">https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</guid><pubDate>Mon, 15 Jul 2024 06:00:04 +0000</pubDate></item><item><title>锐捷设备-故障排查宝典</title><link>https://chjxt.github.io/post/rui-jie-she-bei---gu-zhang-pai-cha-bao-dian.html</link><description>### [自助服务门户-故障排查宝典](https://search.ruijie.com.cn/door/trade/industry/?tag=ts&amp;fw=wocsfw#/)。</description><guid isPermaLink="true">https://chjxt.github.io/post/rui-jie-she-bei---gu-zhang-pai-cha-bao-dian.html</guid><pubDate>Wed, 19 Jun 2024 03:20:01 +0000</pubDate></item><item><title>现网内有防火墙导致视频会议参会成员入会时无规律掉线解决方案</title><link>https://chjxt.github.io/post/xian-wang-nei-you-fang-huo-qiang-dao-zhi-shi-pin-hui-yi-can-hui-cheng-yuan-ru-hui-shi-wu-gui-lv-diao-xian-jie-jue-fang-an.html</link><description>### 奇安信防火墙关闭ALG（反向代理）&#13;
 【问题描述】&#13;
 &#13;
        单位组织视频会议，出现很严重的问题是参会人员不能全部入会，多家单位依次都出现这种现象，无法入会的单位不固定。</description><guid isPermaLink="true">https://chjxt.github.io/post/xian-wang-nei-you-fang-huo-qiang-dao-zhi-shi-pin-hui-yi-can-hui-cheng-yuan-ru-hui-shi-wu-gui-lv-diao-xian-jie-jue-fang-an.html</guid><pubDate>Wed, 05 Jun 2024 01:18:14 +0000</pubDate></item><item><title>硬盘分区与挂载(凝思)</title><link>https://chjxt.github.io/post/ying-pan-fen-qu-yu-gua-zai-%28-ning-si-%29.html</link><description>命令行启动 gparted&#13;

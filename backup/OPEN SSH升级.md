@@ -4,6 +4,8 @@ deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.1
 
 ### 二、麒麟信安V3.3升级
 
+所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)
+
 > :exclamation: 按照顺序安装
 
 1. 安装 zlib
@@ -53,4 +55,3 @@ chkconfig --add sshd
 chkconfig sshd on
 
 ```
-所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)
