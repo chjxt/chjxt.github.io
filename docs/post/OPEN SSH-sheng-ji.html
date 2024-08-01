@@ -16,55 +16,10 @@ deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.1
 
 ### 二、麒麟信安V3.3升级
 
-所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)
+所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-LVZHd.html)
 
-> :exclamation: 按照顺序安装
-
-1. 安装 zlib
-
-```
-tar zxvf zlib-1.2.13.tar.gz
-cd zlib-1.2.13
-./configure --prefix=/usr/local/zlib
-make && make install
-```
-
-2. 安装 openssl
-
-```
-tar zxvf openssl-1.1.1t.tar.gz
-cd openssl-1.1.1t
-./config --prefix=/usr/local/ssl -d shared
-ldconfig
-make && make install
-echo '/usr/local/ssl/lib' >> /etc/ld.so.conf
-```
-3. 安装 openssh
-```
-yum -y remove openssh
-tar zxvf openssh-9.5p1.tar.gz
-cd openssh-9.5p1	
-./configure --prefix=/usr/local/openssh --with-zlib=/usr/local/zlib --with-ssl-dir=/usr/local/ssl --without-openssl-header-check
-make && make install
-```
-4. 配置
-```
-echo 'PermitRootLogin yes' >> /usr/local/openssh/etc/sshd_config
-echo 'PubkeyAuthentication yes' >> /usr/local/openssh/etc/sshd_config
-echo 'PasswordAuthentication yes' >> /usr/local/openssh/etc/sshd_config
-cd contrib/redhat/
-cp sshd.init  /etc/init.d/sshd
-chkconfig --add sshd
-cp /usr/local/openssh/etc/sshd_config /etc/ssh/sshd_config 
-cp /usr/local/openssh/sbin/sshd /usr/sbin/sshd
-cp /usr/local/openssh/bin/ssh /usr/bin/ssh
-cp /usr/local/openssh/bin/ssh-keygen /usr/bin/ssh-keygen
-cp /usr/local/openssh/etc/ssh_host_ecdsa_key.pub /etc/ssh/ssh_host_ecdsa_key.pub
-systemctl start sshd.service
-chkconfig --add sshd
-chkconfig sshd on
-
-```。">
+> :exclamation: 解压进入文件输入rpm -Uvh *.rpm
+。">
 <meta property="og:title" content="OPEN SSH升级">
 <meta property="og:description" content="### 一、银河麒麟SP1 升级
 下载所需deb文件，进入文件夹执行`sudo   dpkg   -i   *.deb`
@@ -72,55 +27,10 @@ deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.1
 
 ### 二、麒麟信安V3.3升级
 
-所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-j8ZHd.html)
+所需文件 :file_folder: [麒麟信安3.3-OPEN_SSH升级文件](https://www.123pan.com/s/aV6VVv-LVZHd.html)
 
-> :exclamation: 按照顺序安装
-
-1. 安装 zlib
-
-```
-tar zxvf zlib-1.2.13.tar.gz
-cd zlib-1.2.13
-./configure --prefix=/usr/local/zlib
-make && make install
-```
-
-2. 安装 openssl
-
-```
-tar zxvf openssl-1.1.1t.tar.gz
-cd openssl-1.1.1t
-./config --prefix=/usr/local/ssl -d shared
-ldconfig
-make && make install
-echo '/usr/local/ssl/lib' >> /etc/ld.so.conf
-```
-3. 安装 openssh
-```
-yum -y remove openssh
-tar zxvf openssh-9.5p1.tar.gz
-cd openssh-9.5p1	
-./configure --prefix=/usr/local/openssh --with-zlib=/usr/local/zlib --with-ssl-dir=/usr/local/ssl --without-openssl-header-check
-make && make install
-```
-4. 配置
-```
-echo 'PermitRootLogin yes' >> /usr/local/openssh/etc/sshd_config
-echo 'PubkeyAuthentication yes' >> /usr/local/openssh/etc/sshd_config
-echo 'PasswordAuthentication yes' >> /usr/local/openssh/etc/sshd_config
-cd contrib/redhat/
-cp sshd.init  /etc/init.d/sshd
-chkconfig --add sshd
-cp /usr/local/openssh/etc/sshd_config /etc/ssh/sshd_config 
-cp /usr/local/openssh/sbin/sshd /usr/sbin/sshd
-cp /usr/local/openssh/bin/ssh /usr/bin/ssh
-cp /usr/local/openssh/bin/ssh-keygen /usr/bin/ssh-keygen
-cp /usr/local/openssh/etc/ssh_host_ecdsa_key.pub /etc/ssh/ssh_host_ecdsa_key.pub
-systemctl start sshd.service
-chkconfig --add sshd
-chkconfig sshd on
-
-```。">
+> :exclamation: 解压进入文件输入rpm -Uvh *.rpm
+。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -184,56 +94,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>下载所需deb文件，进入文件夹执行<code class="notranslate">sudo   dpkg   -i   *.deb</code><br>
 deb 文件链接 👽 <a href="https://www.123pan.com/s/aV6VVv-L8ZHd.html" rel="nofollow">银河麒麟v10_SP1-openssh升级文件</a></p>
 <h3>二、麒麟信安V3.3升级</h3>
-<p>所需文件 📁 <a href="https://www.123pan.com/s/aV6VVv-j8ZHd.html" rel="nofollow">麒麟信安3.3-OPEN_SSH升级文件</a></p>
+<p>所需文件 📁 <a href="https://www.123pan.com/s/aV6VVv-LVZHd.html" rel="nofollow">麒麟信安3.3-OPEN_SSH升级文件</a></p>
 <blockquote>
-<p>❗ 按照顺序安装</p>
-</blockquote>
-<ol>
-<li>安装 zlib</li>
-</ol>
-<pre class="notranslate"><code class="notranslate">tar zxvf zlib-1.2.13.tar.gz
-cd zlib-1.2.13
-./configure --prefix=/usr/local/zlib
-make &amp;&amp; make install
-</code></pre>
-<ol start="2">
-<li>安装 openssl</li>
-</ol>
-<pre class="notranslate"><code class="notranslate">tar zxvf openssl-1.1.1t.tar.gz
-cd openssl-1.1.1t
-./config --prefix=/usr/local/ssl -d shared
-ldconfig
-make &amp;&amp; make install
-echo '/usr/local/ssl/lib' &gt;&gt; /etc/ld.so.conf
-</code></pre>
-<ol start="3">
-<li>安装 openssh</li>
-</ol>
-<pre class="notranslate"><code class="notranslate">yum -y remove openssh
-tar zxvf openssh-9.5p1.tar.gz
-cd openssh-9.5p1	
-./configure --prefix=/usr/local/openssh --with-zlib=/usr/local/zlib --with-ssl-dir=/usr/local/ssl --without-openssl-header-check
-make &amp;&amp; make install
-</code></pre>
-<ol start="4">
-<li>配置</li>
-</ol>
-<pre class="notranslate"><code class="notranslate">echo 'PermitRootLogin yes' &gt;&gt; /usr/local/openssh/etc/sshd_config
-echo 'PubkeyAuthentication yes' &gt;&gt; /usr/local/openssh/etc/sshd_config
-echo 'PasswordAuthentication yes' &gt;&gt; /usr/local/openssh/etc/sshd_config
-cd contrib/redhat/
-cp sshd.init  /etc/init.d/sshd
-chkconfig --add sshd
-cp /usr/local/openssh/etc/sshd_config /etc/ssh/sshd_config 
-cp /usr/local/openssh/sbin/sshd /usr/sbin/sshd
-cp /usr/local/openssh/bin/ssh /usr/bin/ssh
-cp /usr/local/openssh/bin/ssh-keygen /usr/bin/ssh-keygen
-cp /usr/local/openssh/etc/ssh_host_ecdsa_key.pub /etc/ssh/ssh_host_ecdsa_key.pub
-systemctl start sshd.service
-chkconfig --add sshd
-chkconfig sshd on
-
-</code></pre></div>
+<p>❗ 解压进入文件输入rpm -Uvh *.rpm</p>
+</blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
