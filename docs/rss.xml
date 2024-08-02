@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Thu, 01 Aug 2024 16:18:00 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>最简单的PE启动U盘制作方法</title><link>https://chjxt.github.io/post/zui-jian-dan-de-PE-qi-dong-U-pan-zhi-zuo-fang-fa.html</link><description>将文件解压到U盘根目录即可使用&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Fri, 02 Aug 2024 05:18:27 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>最简单的PE启动U盘制作方法</title><link>https://chjxt.github.io/post/zui-jian-dan-de-PE-qi-dong-U-pan-zhi-zuo-fang-fa.html</link><description>将文件解压到U盘根目录即可使用&#13;
 文件下载[点击进行下载](https://www.123pan.com/s/aV6VVv-yVZHd.html)。</description><guid isPermaLink="true">https://chjxt.github.io/post/zui-jian-dan-de-PE-qi-dong-U-pan-zhi-zuo-fang-fa.html</guid><pubDate>Thu, 01 Aug 2024 07:22:55 +0000</pubDate></item><item><title>OPEN SSH升级</title><link>https://chjxt.github.io/post/OPEN%20SSH-sheng-ji.html</link><description>### 一、银河麒麟SP1 升级&#13;
 下载所需deb文件，进入文件夹执行`sudo   dpkg   -i   *.deb`&#13;
 deb 文件链接 :alien: [银河麒麟v10_SP1-openssh升级文件](https://www.123pan.com/s/aV6VVv-L8ZHd.html)&#13;
@@ -91,7 +91,7 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw &lt;gw_ip&gt;&#13;
 &#13;
 - :cn: [UOS](https://www.123pan.com/s/aV6VVv-ISbHd.html) - 统信系统1050_Update3版本&#13;
 &#13;
-- :racehorse: [银河麒麟V10-SP1](https://sx.ygwid.cn:4431/) - 双源飞流下载站&#13;
+- :racehorse: [银河麒麟V10-SP1](https://sl.ygwid.cn/#) - 双源飞流下载站&#13;
 &#13;
 - :computer: [KYLINSEC_DESKTOP](https://www.123pan.com/s/aV6VVv-gSbHd.html) - 麒麟信安V3.3桌面版本&#13;
 &#13;
