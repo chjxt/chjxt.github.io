@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Sat, 31 Aug 2024 15:28:48 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>杭图探针安装在银河麒麟V10-SP1系统无法自启动</title><link>https://chjxt.github.io/post/hang-tu-tan-zhen-an-zhuang-zai-yin-he-qi-lin-V10-SP1-xi-tong-wu-fa-zi-qi-dong.html</link><description>&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Wed, 11 Sep 2024 11:09:55 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>杭图探针安装在银河麒麟V10-SP1系统无法自启动</title><link>https://chjxt.github.io/post/hang-tu-tan-zhen-an-zhuang-zai-yin-he-qi-lin-V10-SP1-xi-tong-wu-fa-zi-qi-dong.html</link><description>&#13;
 &gt; 由于银河麒麟桌面操作系统V10SP1中默认没有/etc/rc.local开机自启文件，在杭图探针安装过程中会寻找rc.local文件，并向里写入开机执行的命令，所以在安装杭图科技探针前，应提前把rc.local创建完成并进行相关配置使文件可以开机执行，关于/etc/rc.local文件的创建及配置可以参考[银河麒麟桌面操作系统V10SP1【创建/etc/rc.local文件配置开机自启功能】操作指南](https://chjxt.github.io/post/yin-he-qi-lin-zhuo-mian-cao-zuo-xi-tong-V10SP1%E3%80%90-chuang-jian--etc-rc.local-wen-jian-pei-zhi-kai-ji-zi-qi-gong-neng-%E3%80%91-cao-zuo-zhi-nan.html)，由于这个创建过于复杂，我们还可以采用另一种方法来让探针进行开机自启动&#13;
 &#13;
 1、进入开机启动文件夹&#13;
@@ -146,7 +146,7 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw &lt;gw_ip&gt;&#13;
 &#13;
 - :arrow_heading_down: [Agent](https://www.123pan.com/s/aV6VVv-FlbHd.html) - 麒麟信安V3.3探针升级安装包&#13;
 &#13;
-- 🖥️ [Windows 7]() - 7900_Win7 Ghost版本，开机即用版&#13;
+- 🖥️ [Windows 7](https://www.123pan.com/s/aV6VVv-r7cHd) - 7900_Win7 Ghost版本，开机即用版&#13;
 &#13;
 - :computer: [Windows 7](https://www.123pan.com/s/aV6VVv-5VZHd.html) - 7900_Win7 原生镜像&#13;
 &#13;
