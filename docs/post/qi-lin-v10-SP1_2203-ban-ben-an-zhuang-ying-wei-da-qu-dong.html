@@ -13,35 +13,35 @@
 <meta name="description" content="1、查询本机显卡型号
 
 ```
-sudo lshw \-numeric \-C display      \#查看当前电脑的显卡型号
+sudo lshw -numeric -C display      #查看当前电脑的显卡型号
 
-sudo lsmod | grep nouveau          \#查看nouveau驱动是否使用
+sudo lsmod | grep nouveau          #查看nouveau驱动是否使用
 
-sudo lspci | grep VGA              \# 查看集成显卡
+sudo lspci | grep VGA              # 查看集成显卡
 
-sudo lspci | grep NVIDIA           \# 查看NVIDIA显卡
+sudo lspci | grep NVIDIA           # 查看NVIDIA显卡
 
-sudo lshw \-c video | grep configuration	 \#查看显卡驱动
+sudo lshw -c video | grep configuration	 #查看显卡驱动
 ```
 
 2、根据显卡型号去英伟达官方下载
 
 NVIDIA驱动程序下载
 
-https://www/\.nvidia\.cn/Download/index\.aspx?lang=cn
+https://www.nvidia.cn/Download/index.aspx?lang=cn
 
 3、禁用nouveau驱动
 
 一般Linux都会自动集成一个开源的NVIDIA驱动nouveau，安装NVIDIA驱动需要先禁用这个驱动
 
 ```
-sudo su		\#进入root用户
+sudo su		#进入root用户
 ```
 
 打开禁用配置文件
 
 ```
-vim /etc/modprobe\.d/blacklist\.conf	
+vim /etc/modprobe.d/blacklist.conf	
 ```
 
 在最后一行添加
@@ -59,7 +59,7 @@ blacklist nouveau
 由于nouveau是在内核中的，还需要更新一下，执行如下命令：
 
 ```
-sudo update\-initramfs \-u
+sudo update-initramfs -u
 ```
 
 之后重启电脑：
@@ -78,13 +78,13 @@ lsmod | grep nouveau
 
 进入tty终端
 
-*ctrl\+alt\+F1*
+*ctrl+alt+F1*
 
 4、安装驱动  
 如果以前安装过NVIDIA驱动，需要卸载\(没安装过跳过此步骤\)：
 
 ```
-sudo apt\-get remove –\-purge nvidia\*
+sudo apt-get remove --purge nvidia*
 ```
 
 关闭X window 界面：
@@ -96,49 +96,49 @@ sudo service lightdm stop
 给NVIDIA添加权限：
 
 ```
-sudo chmod a\+x NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run
+sudo chmod a+x NVIDIA-Linux*.run
 ```
 
 然后执行安装：
 
 ```
-sudo sh \./NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run \-no\-opengl\-files
+sudo sh .NVIDIA-Linux*.run -no-opengl-files
 ```
 
-–no\-opengl\-files 参数必须加否则会循环登录，也就是loop login。">
+–no-opengl-files 参数必须加否则会循环登录，也就是loop login。">
 <meta property="og:title" content="麒麟v10-SP1_2203版本安装英伟达驱动">
 <meta property="og:description" content="1、查询本机显卡型号
 
 ```
-sudo lshw \-numeric \-C display      \#查看当前电脑的显卡型号
+sudo lshw -numeric -C display      #查看当前电脑的显卡型号
 
-sudo lsmod | grep nouveau          \#查看nouveau驱动是否使用
+sudo lsmod | grep nouveau          #查看nouveau驱动是否使用
 
-sudo lspci | grep VGA              \# 查看集成显卡
+sudo lspci | grep VGA              # 查看集成显卡
 
-sudo lspci | grep NVIDIA           \# 查看NVIDIA显卡
+sudo lspci | grep NVIDIA           # 查看NVIDIA显卡
 
-sudo lshw \-c video | grep configuration	 \#查看显卡驱动
+sudo lshw -c video | grep configuration	 #查看显卡驱动
 ```
 
 2、根据显卡型号去英伟达官方下载
 
 NVIDIA驱动程序下载
 
-https://www/\.nvidia\.cn/Download/index\.aspx?lang=cn
+https://www.nvidia.cn/Download/index.aspx?lang=cn
 
 3、禁用nouveau驱动
 
 一般Linux都会自动集成一个开源的NVIDIA驱动nouveau，安装NVIDIA驱动需要先禁用这个驱动
 
 ```
-sudo su		\#进入root用户
+sudo su		#进入root用户
 ```
 
 打开禁用配置文件
 
 ```
-vim /etc/modprobe\.d/blacklist\.conf	
+vim /etc/modprobe.d/blacklist.conf	
 ```
 
 在最后一行添加
@@ -156,7 +156,7 @@ blacklist nouveau
 由于nouveau是在内核中的，还需要更新一下，执行如下命令：
 
 ```
-sudo update\-initramfs \-u
+sudo update-initramfs -u
 ```
 
 之后重启电脑：
@@ -175,13 +175,13 @@ lsmod | grep nouveau
 
 进入tty终端
 
-*ctrl\+alt\+F1*
+*ctrl+alt+F1*
 
 4、安装驱动  
 如果以前安装过NVIDIA驱动，需要卸载\(没安装过跳过此步骤\)：
 
 ```
-sudo apt\-get remove –\-purge nvidia\*
+sudo apt-get remove --purge nvidia*
 ```
 
 关闭X window 界面：
@@ -193,16 +193,16 @@ sudo service lightdm stop
 给NVIDIA添加权限：
 
 ```
-sudo chmod a\+x NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run
+sudo chmod a+x NVIDIA-Linux*.run
 ```
 
 然后执行安装：
 
 ```
-sudo sh \./NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run \-no\-opengl\-files
+sudo sh .NVIDIA-Linux*.run -no-opengl-files
 ```
 
-–no\-opengl\-files 参数必须加否则会循环登录，也就是loop login。">
+–no-opengl-files 参数必须加否则会循环登录，也就是loop login。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://chjxt.github.io/post/qi-lin-v10-SP1_2203-ban-ben-an-zhuang-ying-wei-da-qu-dong.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -274,25 +274,25 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>1、查询本机显卡型号</p>
-<pre class="notranslate"><code class="notranslate">sudo lshw \-numeric \-C display      \#查看当前电脑的显卡型号
+<pre class="notranslate"><code class="notranslate">sudo lshw -numeric -C display      #查看当前电脑的显卡型号
 
-sudo lsmod | grep nouveau          \#查看nouveau驱动是否使用
+sudo lsmod | grep nouveau          #查看nouveau驱动是否使用
 
-sudo lspci | grep VGA              \# 查看集成显卡
+sudo lspci | grep VGA              # 查看集成显卡
 
-sudo lspci | grep NVIDIA           \# 查看NVIDIA显卡
+sudo lspci | grep NVIDIA           # 查看NVIDIA显卡
 
-sudo lshw \-c video | grep configuration	 \#查看显卡驱动
+sudo lshw -c video | grep configuration	 #查看显卡驱动
 </code></pre>
 <p>2、根据显卡型号去英伟达官方下载</p>
 <p>NVIDIA驱动程序下载</p>
-<p><a href="https://www/%5C.nvidia%5C.cn/Download/index%5C.aspx?lang=cn" rel="nofollow">https://www/\.nvidia\.cn/Download/index\.aspx?lang=cn</a></p>
+<p><a href="https://www.nvidia.cn/Download/index.aspx?lang=cn" rel="nofollow">https://www.nvidia.cn/Download/index.aspx?lang=cn</a></p>
 <p>3、禁用nouveau驱动</p>
 <p>一般Linux都会自动集成一个开源的NVIDIA驱动nouveau，安装NVIDIA驱动需要先禁用这个驱动</p>
-<pre class="notranslate"><code class="notranslate">sudo su		\#进入root用户
+<pre class="notranslate"><code class="notranslate">sudo su		#进入root用户
 </code></pre>
 <p>打开禁用配置文件</p>
-<pre class="notranslate"><code class="notranslate">vim /etc/modprobe\.d/blacklist\.conf	
+<pre class="notranslate"><code class="notranslate">vim /etc/modprobe.d/blacklist.conf	
 </code></pre>
 <p>在最后一行添加</p>
 <pre class="notranslate"><code class="notranslate">blacklist nouveau
@@ -301,7 +301,7 @@ sudo lshw \-c video | grep configuration	 \#查看显卡驱动
 <pre class="notranslate"><code class="notranslate">:wq
 </code></pre>
 <p>由于nouveau是在内核中的，还需要更新一下，执行如下命令：</p>
-<pre class="notranslate"><code class="notranslate">sudo update\-initramfs \-u
+<pre class="notranslate"><code class="notranslate">sudo update-initramfs -u
 </code></pre>
 <p>之后重启电脑：</p>
 <pre class="notranslate"><code class="notranslate">reboot
@@ -314,16 +314,16 @@ sudo lshw \-c video | grep configuration	 \#查看显卡驱动
 <p><em>ctrl+alt+F1</em></p>
 <p>4、安装驱动<br>
 如果以前安装过NVIDIA驱动，需要卸载(没安装过跳过此步骤)：</p>
-<pre class="notranslate"><code class="notranslate">sudo apt\-get remove –\-purge nvidia\*
+<pre class="notranslate"><code class="notranslate">sudo apt-get remove --purge nvidia*
 </code></pre>
 <p>关闭X window 界面：</p>
 <pre class="notranslate"><code class="notranslate">sudo service lightdm stop
 </code></pre>
 <p>给NVIDIA添加权限：</p>
-<pre class="notranslate"><code class="notranslate">sudo chmod a\+x NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run
+<pre class="notranslate"><code class="notranslate">sudo chmod a+x NVIDIA-Linux*.run
 </code></pre>
 <p>然后执行安装：</p>
-<pre class="notranslate"><code class="notranslate">sudo sh \./NVIDIA\-Linux\-\*\*\*\*\*\*\*\.run \-no\-opengl\-files
+<pre class="notranslate"><code class="notranslate">sudo sh .NVIDIA-Linux*.run -no-opengl-files
 </code></pre>
 <p>–no-opengl-files 参数必须加否则会循环登录，也就是loop login。</p>
 <p>参数介绍：</p>
@@ -337,7 +337,7 @@ sudo lshw \-c video | grep configuration	 \#查看显卡驱动
 <pre class="notranslate"><code class="notranslate">sudo service lightdm start
 </code></pre>
 <p>重启完成之后查看显卡驱动:</p>
-<pre class="notranslate"><code class="notranslate">sudo lshw \-c video | grep configuration
+<pre class="notranslate"><code class="notranslate">sudo lshw -c video | grep configuration
 </code></pre>
 <p>查看驱动是否是自己下载的版本,如果是，则安装成功</p>
 <pre class="notranslate"><code class="notranslate">modinfo nvidia
