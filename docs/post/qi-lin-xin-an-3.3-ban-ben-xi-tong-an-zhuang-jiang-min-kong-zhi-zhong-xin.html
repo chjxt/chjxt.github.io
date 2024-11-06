@@ -87,30 +87,33 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><h3>安装glibc2.28</h3>
 <p>上传安装包至系统桌面，右键解压缩到此处(桌面)。<br>
-进入解压缩后的文件夹，空白处右击打开终端，输入以下命令进行安装。</p>
+进入解压缩后的文件夹，空白处右击打开终端，输入以下命令进行安装。<br>
+glibc2.28安装包下载地址 👉 <a href="https://www.123684.com/s/aV6VVv-uieHd" rel="nofollow">glibc2.28</a></p>
 <p><code class="notranslate"> rpm -ivh *.rpm --nodeps --force</code></p>
 <h3>创建软链接</h3>
 <pre class="notranslate"><code class="notranslate">ln -s /opt/NetServer/MessageSoft/Python/Python-bin/lib/python2.7/site-packages/mysql/vendor/libssl.so.1.1 /usr/lib64/libssl.so.1.1
-//
+
 ln -s /opt/NetServer/MessageSoft/Python/Python-bin/lib/python2.7/site-packages/mysql/vendor/libcrypto.so.1.1 /usr/lib64/libcrypto.so.1.1
-//
+
 cp '/root/Desktop/libstdc++.so.6.0.29' /lib64
 cd /lib64/
 chmod +x libstdc++.so.6.0.29
 rm -rf libstdc++.so.6 -&gt; libstdc++.so.6.0.19
 ln -s libstdc++.so.6.0.29 libstdc++.so.6
-//
+
 ln -s libtinfo.so.5.9 libtinfo.so.6
 </code></pre>
 <blockquote>
-<p>libstdc++.so.6.0.29是单独的文件，需要上传至系统桌面，软链接路径可以通过安装控制中心来查看跳出来的报错，通过find  / * -name xxx.so.xx 来查找路径。</p>
+<p>libstdc++.so.6.0.29 👇 是单独的文件，需要上传至系统桌面，软链接路径可以通过安装控制中心来查看跳出来的报错，通过find  / * -name xxx.so.xx 来查找路径。</p>
 </blockquote>
+<p><a href="https://www.123684.com/s/aV6VVv-UieHd" rel="nofollow">libstdc++.so.6.0.29下载</a></p>
 <h3>安装控制中心客户端(登录控制中心的客户端)</h3>
 <p>上传安装包至桌面，桌面空白处右击打开终端，输入以下命令进行安装。</p>
 <p><code class="notranslate"> rpm -ivh '/root/Desktop/kzzx-linux-1.1.5-x86_64.rpm' --nodeps</code></p>
 <blockquote>
 <p>安装可能会卡住，等待一段时间后重启即可，重启完成后查看是否安装成功，安装成功后开始进行下面步骤。</p>
 </blockquote>
+<p>👉 <a href="https://www.123684.com/s/aV6VVv-SieHd" rel="nofollow">控制中心客户端</a></p>
 <h3>安装控制中心</h3>
 <p>上传安装包至系统桌面，右键解压缩到此处(桌面)。<br>
 进入解压缩后的文件夹，空白处右击打开终端，输入以下命令进行安装。</p>
@@ -119,11 +122,9 @@ ln -s libtinfo.so.5.9 libtinfo.so.6
 
 </code></pre>
 <blockquote>
-<p>查看出现complete字样即为安装完成。完成后输入命令jmsupervisorctl status查看全部状态为RUNNING即为正常运行。</p>
+<p>查看出现complete字样即为安装完成。完成后输入命令jmsupervisorctl status查看全部状态为RUNNING即为正常运行。通过浏览器输入127.0.0.1:7001可以进入后台</p>
 </blockquote>
-<blockquote>
-<p>通过浏览器输入127.0.0.1:7001可以进入后台</p>
-</blockquote></div>
+<p>👉 <a href="https://www.123684.com/s/aV6VVv-lieHd" rel="nofollow">控制中心</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
