@@ -10,15 +10,13 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="### 故障原因：
-openssh漏洞，进而进行升级，升级后产生此问题；无法进去桌面系统，可以远程ssh进行登录，也可以Ctrl+Alt+F2进入命令行系统。">
-<meta property="og:title" content="银河麒麟V10-SP1升级OPENSSH后登录图形界面循环登录无法进入系统">
-<meta property="og:description" content="### 故障原因：
-openssh漏洞，进而进行升级，升级后产生此问题；无法进去桌面系统，可以远程ssh进行登录，也可以Ctrl+Alt+F2进入命令行系统。">
+<meta name="description" content=":tada: [基础设施研究中心](https://fdoc.epoint.com.cn:3366)。">
+<meta property="og:title" content="基础设施研究中心">
+<meta property="og:description" content=":tada: [基础设施研究中心](https://fdoc.epoint.com.cn:3366)。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://chjxt.github.io/post/yin-he-qi-lin-V10-SP1-sheng-ji-OPENSSH-hou-deng-lu-tu-xing-jie-mian-xun-huan-deng-lu-wu-fa-jin-ru-xi-tong.html">
+<meta property="og:url" content="https://chjxt.github.io/post/ji-chu-she-shi-yan-jiu-zhong-xin.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>银河麒麟V10-SP1升级OPENSSH后登录图形界面循环登录无法进入系统</title>
+<title>基础设施研究中心</title>
 
 
 
@@ -51,7 +49,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">银河麒麟V10-SP1升级OPENSSH后登录图形界面循环登录无法进入系统</h1>
+<h1 class="postTitle">基础设施研究中心</h1>
 <div class="title-right">
     <a href="https://chjxt.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -59,7 +57,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/chjxt/chjxt.github.io/issues/25" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/chjxt/chjxt.github.io/issues/31" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -75,43 +73,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h3>故障原因：</h3>
-<p>openssh漏洞，进而进行升级，升级后产生此问题；无法进去桌面系统，可以远程ssh进行登录，也可以Ctrl+Alt+F2进入命令行系统。</p>
-<h3>故障排查：</h3>
-<p>1、普通用户输入ssh -V报错<br>
-ssh: error while loading shared libraries: libcrypto.so.3: cannot open shared obiect file: No such file or directory<br>
-进入root用户输入ssh -V正常<br>
-0penSSH 9.8p1,0penSSl3.2.1 30 Jan 2024<br>
-2、百度搜索关键词“银河麒麟循环登录”，查看结果有的是说分区内存占用过大，df -h查看均正常，有的让删除用户目录下的.Xauthority文件，测试过后问题依旧；相关链接如下：<br>
-<a href="https://kb.kylinos.cn/zsk/view/faq/115" rel="nofollow">https://kb.kylinos.cn/zsk/view/faq/115</a><br>
-3、查看/var/log/auth.log内容，查看日志发现有PAM文件无法找到的日志内容<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/9ec2eec3-2b32-43fd-88b8-f789c3db223c"><img src="https://github.com/user-attachments/assets/9ec2eec3-2b32-43fd-88b8-f789c3db223c" alt="图片1" style="max-width: 100%;"></a><br>
-此时，感觉是这个问题导致的。通过安装同一系统进行测试试图还原故障，发现故障并不能复现，在测试机上查看/var/log/auth.log日志也有同样的PAM内容，那这个内容并不是导致问题产生的原因。<br>
-4、查看用户目录下的.xsession-errors文件，此文件会记录登录过程中产生的日志。<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a1398872-e481-49fe-ad1b-d12ab9267519"><img src="https://github.com/user-attachments/assets/a1398872-e481-49fe-ad1b-d12ab9267519" alt="图片2" style="max-width: 100%;"></a><br>
-此文件内容最下面有一行：user/bin/ssh-agent error while loading shared libraries：libcrypto.so.3 cannot open shared object file:No such file or directory<br>
-这个可能就是问题产生的原因所在，也是普通用户输入ssh -V报错的原因</p>
-<h3>故障复现：在测试机</h3>
-<p>1、查找所缺少的库文件位置find / -name libcrypto.so.3<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6916635e-4e4f-4f7a-877d-6059ca54a40b"><img src="https://github.com/user-attachments/assets/6916635e-4e4f-4f7a-877d-6059ca54a40b" alt="图片3" style="max-width: 100%;"></a><br>
-2、查看user/bin/ssh-agent 依赖关系<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8b2a06d1-cf02-44aa-ba09-4b1e0ae460e2"><img src="https://github.com/user-attachments/assets/8b2a06d1-cf02-44aa-ba09-4b1e0ae460e2" alt="图片4" style="max-width: 100%;"></a><br>
-3、情况逐渐明了，让libcrypto.so.3指向的库文件不是当前的内容，那是不是就可以进行故障复现，安装openssl的时候配置的文件是在/etc/ld.so.conf.d/openssl.conf<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d4a32c88-b9cc-4a3b-9c34-e127c80d54c0"><img src="https://github.com/user-attachments/assets/d4a32c88-b9cc-4a3b-9c34-e127c80d54c0" alt="图片5" style="max-width: 100%;"></a><br>
-我们需要打开此文件查看内容<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/7c747226-0a95-43d7-a7a4-4a4dac0fcae5"><img src="https://github.com/user-attachments/assets/7c747226-0a95-43d7-a7a4-4a4dac0fcae5" alt="图片6" style="max-width: 100%;"></a><br>
-把内容删除后执行ldconfig 使之生效。问题复现<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/dfe4664a-f568-4797-a01e-f0cb53947728"><img src="https://github.com/user-attachments/assets/dfe4664a-f568-4797-a01e-f0cb53947728" alt="图片7" style="max-width: 100%;"></a><br>
-注销后，图形界面输入密码会循环登录<br>
-此时执行ldd /usr/bin/ssh-agent<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/052b01bf-cf33-4ad3-80e7-5abf91c85942"><img src="https://github.com/user-attachments/assets/052b01bf-cf33-4ad3-80e7-5abf91c85942" alt="图片8" style="max-width: 100%;"></a><br>
-出现libcrypto.so.3 =&gt; not found</p>
-<h3>结论：</h3>
-<p>在故障电脑执行ldd /usr/bin/ssh-agent查看结果是否有libcrypto.so.3 =&gt; not found内容。<br>
-编辑 /etc/ld.so.conf.d/openssl.conf文件增加一条<br>
-/usr/local/openssl/lib64<br>
-执行ldconfig<br>
-问题解决。</p></div>
+<div class="markdown-body" id="postBody"><p>🎉 <a href="https://fdoc.epoint.com.cn:3366" rel="nofollow">基础设施研究中心</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
