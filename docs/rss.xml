@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Thu, 29 May 2025 01:56:53 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>江民恶意代码管理系统服务器重启后服务异常处理办法</title><link>https://chjxt.github.io/post/jiang-min-e-yi-dai-ma-guan-li-xi-tong-fu-wu-qi-zhong-qi-hou-fu-wu-yi-chang-chu-li-ban-fa.html</link><description>&gt; 问题现象：恶意代码管理系统服务器重启后服务异常，查看服务状态 jmsupervisorctl status。</description><guid isPermaLink="true">https://chjxt.github.io/post/jiang-min-e-yi-dai-ma-guan-li-xi-tong-fu-wu-qi-zhong-qi-hou-fu-wu-yi-chang-chu-li-ban-fa.html</guid><pubDate>Thu, 29 May 2025 01:56:17 +0000</pubDate></item><item><title>【Kylinsec3.3】常见问题解答</title><link>https://chjxt.github.io/post/%E3%80%90Kylinsec3.3%E3%80%91-chang-jian-wen-ti-jie-da.html</link><description>[【Kylinsec3.3】常见问题解答](https://www.123865.com/s/aV6VVv-bELHd)。</description><guid isPermaLink="true">https://chjxt.github.io/post/%E3%80%90Kylinsec3.3%E3%80%91-chang-jian-wen-ti-jie-da.html</guid><pubDate>Thu, 29 May 2025 01:19:01 +0000</pubDate></item><item><title>【Kylinsec 3.3】常见端口启动或关闭</title><link>https://chjxt.github.io/post/%E3%80%90Kylinsec%203.3%E3%80%91-chang-jian-duan-kou-qi-dong-huo-guan-bi.html</link><description>[【Kylinsec】常见端口启动或关闭](https://www.yuque.com/domyown/yeeqmw/cuuidi7ch3naizqx?singleDoc#)。</description><guid isPermaLink="true">https://chjxt.github.io/post/%E3%80%90Kylinsec%203.3%E3%80%91-chang-jian-duan-kou-qi-dong-huo-guan-bi.html</guid><pubDate>Thu, 29 May 2025 01:15:24 +0000</pubDate></item><item><title>ACL与Traffic Behavior的Deny/Permit对应关系</title><link>https://chjxt.github.io/post/ACL-yu-Traffic%20Behavior-de-Deny-Permit-dui-ying-guan-xi.html</link><description>&lt;html&gt;&lt;body&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>昌嘉新途</title><link>https://chjxt.github.io</link><description>一切问题都是智商问题。</description><copyright>昌嘉新途</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://chjxt.github.io</link></image><lastBuildDate>Mon, 28 Jul 2025 12:12:33 +0000</lastBuildDate><managingEditor>昌嘉新途</managingEditor><ttl>60</ttl><webMaster>昌嘉新途</webMaster><item><title>江民恶意代码管理系统服务器重启后服务异常处理办法</title><link>https://chjxt.github.io/post/jiang-min-e-yi-dai-ma-guan-li-xi-tong-fu-wu-qi-zhong-qi-hou-fu-wu-yi-chang-chu-li-ban-fa.html</link><description>&gt; 问题现象：恶意代码管理系统服务器重启后服务异常，查看服务状态 jmsupervisorctl status。</description><guid isPermaLink="true">https://chjxt.github.io/post/jiang-min-e-yi-dai-ma-guan-li-xi-tong-fu-wu-qi-zhong-qi-hou-fu-wu-yi-chang-chu-li-ban-fa.html</guid><pubDate>Thu, 29 May 2025 01:56:17 +0000</pubDate></item><item><title>【Kylinsec3.3】常见问题解答</title><link>https://chjxt.github.io/post/%E3%80%90Kylinsec3.3%E3%80%91-chang-jian-wen-ti-jie-da.html</link><description>[【Kylinsec3.3】常见问题解答](https://www.123865.com/s/aV6VVv-bELHd)。</description><guid isPermaLink="true">https://chjxt.github.io/post/%E3%80%90Kylinsec3.3%E3%80%91-chang-jian-wen-ti-jie-da.html</guid><pubDate>Thu, 29 May 2025 01:19:01 +0000</pubDate></item><item><title>【Kylinsec 3.3】常见端口启动或关闭</title><link>https://chjxt.github.io/post/%E3%80%90Kylinsec%203.3%E3%80%91-chang-jian-duan-kou-qi-dong-huo-guan-bi.html</link><description>[【Kylinsec】常见端口启动或关闭](https://www.yuque.com/domyown/yeeqmw/cuuidi7ch3naizqx?singleDoc#)。</description><guid isPermaLink="true">https://chjxt.github.io/post/%E3%80%90Kylinsec%203.3%E3%80%91-chang-jian-duan-kou-qi-dong-huo-guan-bi.html</guid><pubDate>Thu, 29 May 2025 01:15:24 +0000</pubDate></item><item><title>ACL与Traffic Behavior的Deny/Permit对应关系</title><link>https://chjxt.github.io/post/ACL-yu-Traffic%20Behavior-de-Deny-Permit-dui-ying-guan-xi.html</link><description>&lt;html&gt;&lt;body&gt;
 &lt;!--StartFragment--&gt;&lt;div class='ds-markdown ds-markdown--block' style='--ds-md-zoom: 1.143;'&gt;&lt;h1&gt;ACL与Traffic Behavior的Deny/Permit对应关系&lt;/h1&gt;&lt;p&gt;ACL和Traffic Behavior中都有deny/permit的概念，但它们的含义和作用不同。</description><guid isPermaLink="true">https://chjxt.github.io/post/ACL-yu-Traffic%20Behavior-de-Deny-Permit-dui-ying-guan-xi.html</guid><pubDate>Fri, 11 Apr 2025 12:03:21 +0000</pubDate></item><item><title>麒麟信安 V3.3 系统设置及软件安装</title><link>https://chjxt.github.io/post/qi-lin-xin-an-%20V3.3%20-xi-tong-she-zhi-ji-ruan-jian-an-zhuang.html</link><description>麒麟3.3安装软件
 
 1、用U盘导入需要的软件；
@@ -191,53 +191,53 @@ down route del -net xx.xx.xx.xx netmask xx.xx.xx.xx gw &lt;gw_ip&gt;&#13;
 //添加默认网关&#13;
 `# route add default gw IP`&#13;
 //删除路由&#13;
-`# route del –host 192.168.168.110 dev eth0`。</description><guid isPermaLink="true">https://chjxt.github.io/post/ning-si-xi-tong-tian-jia-lu-you.html</guid><pubDate>Wed, 27 Mar 2024 04:28:45 +0000</pubDate></item><item><title>工作所使用系统镜像以及软件下载</title><link>https://chjxt.github.io/post/gong-zuo-suo-shi-yong-xi-tong-jing-xiang-yi-ji-ruan-jian-xia-zai.html</link><description>- 🖥️  [Win10](https://www.123865.com/s/aV6VVv-4wtHd) -【风清月莹】2024.04.09最终版&#13;
-&#13;
-- :cn: [UOS](https://www.123pan.com/s/aV6VVv-ISbHd.html) - 统信系统1050_Update3版本&#13;
-&#13;
-- :racehorse: [银河麒麟V10-SP1](https://sl.ygwid.cn/#) - 双源飞流下载站&#13;
-&#13;
-- :computer: [KYLINSEC_DESKTOP](https://www.123pan.com/s/aV6VVv-gSbHd.html) - 麒麟信安V3.3桌面版本&#13;
-&#13;
-- 🖥️ [KYLINSEC_SERVER](https://www.123pan.com/s/aV6VVv-MSbHd.html) - 麒麟信安V3.3服务器版本&#13;
-&#13;
-- :arrow_heading_down: [Agent](https://www.123pan.com/s/aV6VVv-FlbHd.html) - 麒麟信安V3.3探针升级安装包&#13;
-&#13;
-- 🖥️ [Windows 7](https://www.123pan.com/s/aV6VVv-r7cHd) - 7900_Win7 Ghost版本，开机即用版&#13;
-&#13;
-- :computer: [Windows 7](https://www.123pan.com/s/aV6VVv-5VZHd.html) - 7900_Win7 原生镜像&#13;
-&#13;
-- :anger: [LINX](https://www.linx-info.com/download/os/6.0.80/linxos-6.0.80-20230727-x86_64-DVD.iso) - 凝思6.0.80系统&#13;
-&#13;
-- :arrow_heading_down: [linx_agent](https://www.123pan.com/s/aV6VVv-VWcHd) - 凝思6.0.80系统探针&#13;
-&#13;
-- :pushpin: [惠江安探针](https://www.123pan.com/s/aV6VVv-jWcHd) - 惠江安探针&#13;
-&#13;
-- :zap: [杭图科技探针](https://www.123pan.com/s/aV6VVv-oCcHd) - 恶意代码使用探针&#13;
-&#13;
-- :eyes: [NVIDIA](https://www.123pan.com/s/aV6VVv-9CcHd) - 7900_Linux显卡驱动&#13;
-&#13;
-- :floppy_disk: [网厂交互](https://www.123pan.com/s/aV6VVv-3CcHd) - 报表机网厂交互软件&#13;
-&#13;
-- :lock_with_ink_pen: [NSMD-PYI](https://www.123pan.com/s/aV6VVv-hCcHd) - 江南信安网安Linux版客户端内含QT安装包&#13;
-&#13;
-- :page_with_curl: [SHELL](https://www.123pan.com/s/aV6VVv-ACcHd) - 麒麟信安V3.3加固脚本&#13;
-&#13;
-- :octocat: [FirePE](https://firpe.cn/page-247) - 最适合年轻人使用的第三方WinPE&#13;
-&#13;
-- :cd: [Ventoy](https://www.ventoy.net/cn/download.html) - 多系统启动U盘Ventoy&#13;
-&#13;
-- :floppy_disk: [Rufus](http://rufus.ie/zh/) - USB 启动盘Rufus&#13;
-&#13;
-- :pencil: [Adobe Acrobat](https://www.gndown.com/4587.html) - Adobe PDF工具&#13;
-&#13;
-- :alien: [SecureCRT](https://www.123pan.com/s/aV6VVv-kCcHd) - 交换机调试工具&#13;
-&#13;
-- :floppy_disk: [2.1版本客户端](https://www.123pan.com/s/aV6VVv-ECcHd) - 电力互联网大区终端软件客户端&#13;
-&#13;
-- :+1: [离线云坞](https://www.123pan.com/s/aV6VVv-QCcHd) - 离线云坞&#13;
-&#13;
-- :star: [IDM](http://ct.mcoo.cc/d/20763854-56559365-bd55fe) - 多线程下载工具&#13;
+`# route del –host 192.168.168.110 dev eth0`。</description><guid isPermaLink="true">https://chjxt.github.io/post/ning-si-xi-tong-tian-jia-lu-you.html</guid><pubDate>Wed, 27 Mar 2024 04:28:45 +0000</pubDate></item><item><title>工作所使用系统镜像以及软件下载</title><link>https://chjxt.github.io/post/gong-zuo-suo-shi-yong-xi-tong-jing-xiang-yi-ji-ruan-jian-xia-zai.html</link><description>- 🖥️  [Win10](https://www.123865.com/s/aV6VVv-4wtHd) -【风清月莹】2024.04.09最终版
+
+- :cn: [UOS](https://www.123pan.com/s/aV6VVv-ISbHd.html) - 统信系统1050_Update3版本
+
+- :racehorse: [银河麒麟V10-SP1](https://sl.ygwid.cn/#) - 双源飞流下载站
+
+- :computer: [KYLINSEC_DESKTOP](https://www.123pan.com/s/aV6VVv-gSbHd.html) - 麒麟信安V3.3桌面版本
+
+- 🖥️ [KYLINSEC_SERVER](https://www.123pan.com/s/aV6VVv-MSbHd.html) - 麒麟信安V3.3服务器版本
+
+- :arrow_heading_down: [Agent](https://www.123pan.com/s/aV6VVv-FlbHd.html) - 麒麟信安V3.3探针升级安装包
+
+- 🖥️ [Windows 7](https://www.123pan.com/s/aV6VVv-r7cHd) - 7900_Win7 Ghost版本，开机即用版
+
+- :computer: [Windows 7](https://www.123pan.com/s/aV6VVv-5VZHd.html) - 7900_Win7 原生镜像
+
+- :anger: [LINX](https://www.linx-info.com/download/os/6.0.80/linxos-6.0.80-20230727-x86_64-DVD.iso) - 凝思6.0.80系统
+
+- :arrow_heading_down: [linx_agent](https://www.123pan.com/s/aV6VVv-VWcHd) - 凝思6.0.80系统探针
+
+- :pushpin: [惠江安探针](https://www.123pan.com/s/aV6VVv-jWcHd) - 惠江安探针
+
+- :zap: [杭图科技探针](https://www.123865.com/s/aV6VVv-VtLHd) - 恶意代码使用探针
+
+- :eyes: [NVIDIA](https://www.123pan.com/s/aV6VVv-9CcHd) - 7900_Linux显卡驱动
+
+- :floppy_disk: [网厂交互](https://www.123pan.com/s/aV6VVv-3CcHd) - 报表机网厂交互软件
+
+- :lock_with_ink_pen: [NSMD-PYI](https://www.123pan.com/s/aV6VVv-hCcHd) - 江南信安网安Linux版客户端内含QT安装包
+
+- :page_with_curl: [SHELL](https://www.123pan.com/s/aV6VVv-ACcHd) - 麒麟信安V3.3加固脚本
+
+- :octocat: [FirePE](https://firpe.cn/page-247) - 最适合年轻人使用的第三方WinPE
+
+- :cd: [Ventoy](https://www.ventoy.net/cn/download.html) - 多系统启动U盘Ventoy
+
+- :floppy_disk: [Rufus](http://rufus.ie/zh/) - USB 启动盘Rufus
+
+- :pencil: [Adobe Acrobat](https://www.gndown.com/4587.html) - Adobe PDF工具
+
+- :alien: [SecureCRT](https://www.123pan.com/s/aV6VVv-kCcHd) - 交换机调试工具
+
+- :floppy_disk: [2.1版本客户端](https://www.123pan.com/s/aV6VVv-ECcHd) - 电力互联网大区终端软件客户端
+
+- :+1: [离线云坞](https://www.123pan.com/s/aV6VVv-QCcHd) - 离线云坞
+
+- :star: [IDM](http://ct.mcoo.cc/d/20763854-56559365-bd55fe) - 多线程下载工具
 。</description><guid isPermaLink="true">https://chjxt.github.io/post/gong-zuo-suo-shi-yong-xi-tong-jing-xiang-yi-ji-ruan-jian-xia-zai.html</guid><pubDate>Mon, 25 Mar 2024 08:42:30 +0000</pubDate></item><item><title>锐捷交换机交换达人</title><link>https://chjxt.github.io/post/rui-jie-jiao-huan-ji-jiao-huan-da-ren.html</link><description>:open_file_folder:[点击链接](https://www.alipan.com/s/sWXADyuc8Cx) - 交换机技术达人。</description><guid isPermaLink="true">https://chjxt.github.io/post/rui-jie-jiao-huan-ji-jiao-huan-da-ren.html</guid><pubDate>Mon, 25 Mar 2024 02:57:39 +0000</pubDate></item><item><title>麒麟V3.3文本乱码问题</title><link>https://chjxt.github.io/post/qi-lin-V3.3-wen-ben-luan-ma-wen-ti.html</link><description>1、桌面右击—在终端中打开&#13;
 2、输入 dconf-editor 回车&#13;
 3、点击上面的搜索框输入 encoding&#13;
